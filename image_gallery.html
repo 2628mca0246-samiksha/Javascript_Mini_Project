@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India - Image Gallery</title>
+    <link rel="stylesheet" href="image_gallery.css">
+</head>
+<body>
+
+    <header>
+        <h1>Incredible India</h1>
+        <p>Explore the beauty, culture and heritage of India</p>
+    </header>
+
+    <main class="gallery">
+
+        <div class="main-image-container">
+            <img id="mainImage" src="" alt="Tourist place">
+
+            <button id="prevBtn" class="nav-btn prev">❮</button>
+            <button id="nextBtn" class="nav-btn next">❯</button>
+
+            <div class="image-info">
+                <h2 id="imageTitle"></h2>
+                <p id="imageLocation"></p>
+            </div>
+
+            <span id="imageCounter" class="counter"></span>
+        </div>
+
+        <div id="thumbnailContainer" class="thumbnails"></div>
+
+    </main>
+
+    <script src="image_gallery.js"></script>
+</body>
+</html>
